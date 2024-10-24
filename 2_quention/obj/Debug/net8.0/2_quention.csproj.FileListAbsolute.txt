@@ -1,0 +1,14 @@
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\bin\Debug\net8.0\2_quention.exe
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\bin\Debug\net8.0\2_quention.deps.json
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\bin\Debug\net8.0\2_quention.runtimeconfig.json
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\bin\Debug\net8.0\2_quention.dll
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\bin\Debug\net8.0\2_quention.pdb
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\obj\Debug\net8.0\2_quention.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\obj\Debug\net8.0\2_quention.AssemblyInfoInputs.cache
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\obj\Debug\net8.0\2_quention.AssemblyInfo.cs
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\obj\Debug\net8.0\2_quention.csproj.CoreCompileInputs.cache
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\obj\Debug\net8.0\2_quention.dll
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\obj\Debug\net8.0\refint\2_quention.dll
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\obj\Debug\net8.0\2_quention.pdb
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\obj\Debug\net8.0\2_quention.genruntimeconfig.cache
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\2_quention\obj\Debug\net8.0\ref\2_quention.dll
