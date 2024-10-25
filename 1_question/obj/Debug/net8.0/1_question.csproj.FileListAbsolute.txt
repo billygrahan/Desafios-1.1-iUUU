@@ -12,3 +12,4 @@ C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\1_question\obj\Debug\net8.0\refin
 C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\1_question\obj\Debug\net8.0\1_question.pdb
 C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\1_question\obj\Debug\net8.0\1_question.genruntimeconfig.cache
 C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\1_question\obj\Debug\net8.0\ref\1_question.dll
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\1_question\obj\Debug\net8.0\1_question.sourcelink.json

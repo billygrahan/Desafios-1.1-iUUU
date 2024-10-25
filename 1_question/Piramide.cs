@@ -3,7 +3,7 @@ namespace Project_Piramide;
 
 public class Piramide
 {
-    private int N {  get; set; }
+    public int N { get; set; }
 
     public Piramide(int n)
     {

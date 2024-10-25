@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\1_question\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8D2A7698-D709-4AED-B078-F23A7C963FD8}|..\\3_question\\3_question.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\desafio 1.1\\3_question\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B815B98E-0C5A-4C9C-BD8C-1BA4540F4A02}|..\\2_quention\\2_quention.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\desafio 1.1\\2_quention\\reta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B815B98E-0C5A-4C9C-BD8C-1BA4540F4A02}|..\\2_quention\\2_quention.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\desafio 1.1\\2_quention\\vertice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B815B98E-0C5A-4C9C-BD8C-1BA4540F4A02}|..\\2_quention\\2_quention.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\desafio 1.1\\2_quention\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71DD34EC-05AC-4AE5-AB80-9BC29DEC46D8}|1_question.csproj|c:\\users\\billy grahan\\desktop\\iuuu\\desafio 1.1\\1_question\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71DD34EC-05AC-4AE5-AB80-9BC29DEC46D8}|1_question.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +42,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Piramide.cs",
               "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\1_question\\Piramide.cs",
               "RelativeDocumentMoniker": "Piramide.cs",
               "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\1_question\\Piramide.cs",
               "RelativeToolTip": "Piramide.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:55:49.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T17:55:49.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\1_question\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\1_question\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:57:51.185Z",
+              "WhenOpened": "2024-10-24T17:57:51.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\2_quention\\Program.cs",
+              "RelativeDocumentMoniker": "..\\2_quention\\Program.cs",
+              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\2_quention\\Program.cs",
+              "RelativeToolTip": "..\\2_quention\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:41:18.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vertice.cs",
+              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\2_quention\\Vertice.cs",
+              "RelativeDocumentMoniker": "..\\2_quention\\Vertice.cs",
+              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\2_quention\\Vertice.cs",
+              "RelativeToolTip": "..\\2_quention\\Vertice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T13:16:12.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reta.cs",
+              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\2_quention\\Reta.cs",
+              "RelativeDocumentMoniker": "..\\2_quention\\Reta.cs",
+              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\2_quention\\Reta.cs",
+              "RelativeToolTip": "..\\2_quention\\Reta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T13:25:15.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\3_question\\Program.cs",
+              "RelativeDocumentMoniker": "..\\3_question\\Program.cs",
+              "ToolTip": "C:\\Users\\Billy Grahan\\Desktop\\iUUU\\desafio 1.1\\3_question\\Program.cs",
+              "RelativeToolTip": "..\\3_question\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:41:28.53Z",
               "EditorCaption": ""
             }
           ]
