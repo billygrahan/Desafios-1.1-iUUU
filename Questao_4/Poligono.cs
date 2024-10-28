@@ -14,7 +14,7 @@ public class Poligono
 
     public bool AddVertice(Vertice vertice)
     {
-        if (vertices_poligono.IndexOf(vertice) == -1) return false;
+        if (vertices_poligono.IndexOf(vertice) != -1) return false;
         else
         {
             vertices_poligono.Add(vertice);
@@ -22,11 +22,17 @@ public class Poligono
         }
     }
 
-    public void RemoveVertice(Vertice vertice)
+    public void RemoveVertice(int x, int y)
     {
-        if (vertices_poligono.Count == 3) throw new ArgumentOutOfRangeException(nameof(vertices_poligono), "Remoção não concedida! O poligono não pode ter menos de 3 vertices!");
-        else vertices_poligono.Remove(vertice);
+        if (vertices_poligono.Count <= 3)
+            throw new ArgumentOutOfRangeException(nameof(vertices_poligono), "Remoção não concedida! O polígono não pode ter menos de 3 vértices!");
+
+        if (vertices_poligono.RemoveAll(vertice => vertice.X == x && vertice.Y == y) > 0)
+            Console.WriteLine($"Vértice ({x}, {y}) removido com sucesso.");
+        else
+            Console.WriteLine($"Vértice ({x}, {y}) não encontrado no polígono.");
     }
+
 
     public float Perimetro()
     {
