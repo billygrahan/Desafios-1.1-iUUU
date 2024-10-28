@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Questao_3/1.0.0": {
+        "dependencies": {
+          "Questao_2": "1.0.0"
+        },
+        "runtime": {
+          "Questao_3.dll": {}
+        }
+      },
+      "Questao_2/1.0.0": {
+        "runtime": {
+          "Questao_2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Questao_3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Questao_2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
