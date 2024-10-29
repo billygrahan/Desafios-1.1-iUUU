@@ -19,9 +19,10 @@ public class Pessoa
     }
     */
 
-    public void set_certidao(CertidaoNascimento Certidao)
+    public void SetCertidao(CertidaoNascimento Certidao)
     {
         this.Certidao = (this.Certidao == null) ? Certidao 
             : throw new InvalidOperationException("A pessoa já possui uma certidão de nascimento.");
+
     }
 }

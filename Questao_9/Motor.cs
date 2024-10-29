@@ -7,6 +7,11 @@ public class Motor
 
     public Carro? carro { get; set; }
 
+    public Motor(float Cilindrada)
+    {
+        this.Cilindrada = Cilindrada;
+    }
+
     public Motor(float Cilindrada, Carro carro)
     {
         this.Cilindrada = Cilindrada;

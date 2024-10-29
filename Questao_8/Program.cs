@@ -1,11 +1,11 @@
 ﻿using Questao_8;
 
 Pessoa Ronocliudo = new Pessoa("Ronocliudo");
-Ronocliudo.set_certidao(new CertidaoNascimento(new DateTime(2024,10,26),Ronocliudo));
 
+Console.WriteLine($"Nome: {Ronocliudo.nome}");
+Console.WriteLine(Ronocliudo.Certidao);
 
-Pessoa Mazin = new Pessoa("Mazin");
+CertidaoNascimento certidao_Ronocliudo = new CertidaoNascimento(new DateTime(2024,10,26),Ronocliudo);
 
-Console.WriteLine(Ronocliudo.nome);
+Console.WriteLine($"Nome: {Ronocliudo.nome}");
 Console.WriteLine(Ronocliudo.Certidao.dataEmissao);
-Console.WriteLine(Mazin.nome);

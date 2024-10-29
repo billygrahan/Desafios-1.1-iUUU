@@ -7,9 +7,24 @@ public class Carro
     public string Modelo { get; private set; }
     public Motor motor { get; set; }
 
-    public Carro(Motor motor)
+    public Carro(string Placa, string Modelo, Motor motor)
     {
+        this.Placa = Placa;
+        this.Modelo = Modelo;
         this.motor = (motor.carro == null) ? motor : throw new InvalidOperationException("O motor ja está instalado em um carro!");
+        motor.carro = this;
+    }
+
+    public void TrocarMotor(Motor novoMotor)
+    {
+        if (novoMotor.carro != null)
+            throw new InvalidOperationException("O motor já está instalado em um carro!");
+
+        motor.carro = null; 
+        motor = novoMotor;   
+        novoMotor.carro = this;
+
+        Console.WriteLine($"\nTroca do motor do carro {Modelo} por {novoMotor.Cilindrada}\n");
     }
 
     public string VelocidadeMaxima()

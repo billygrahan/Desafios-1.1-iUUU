@@ -11,5 +11,7 @@ public class CertidaoNascimento
         this.dataEmissao = dataEmissao;
         this.pessoa = (pessoa.Certidao == null) ? pessoa 
             : throw new InvalidOperationException("A pessoa já possui uma certidão de nascimento.");
+        pessoa.SetCertidao(this);
+        Console.WriteLine($"\nCriada Certidão de {pessoa.nome}\n");
     }
 }
