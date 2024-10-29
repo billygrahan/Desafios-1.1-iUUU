@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using Questao_2;
+﻿using Questao_2;
 namespace Questao_4;
 
 public class Poligono
