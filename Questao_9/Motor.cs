@@ -12,9 +12,9 @@ public class Motor
         this.Cilindrada = Cilindrada;
     }
 
-    public Motor(float Cilindrada, Carro carro)
+    /*public Motor(float Cilindrada, Carro carro)
     {
         this.Cilindrada = Cilindrada;
         this.carro = carro;
-    }
+    }*/
 }

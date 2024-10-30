@@ -36,7 +36,7 @@ public class Poligono
     public float Perimetro()
     {
         double perimetro = 0;
-        int qtd = Qtd_vertices();
+        int qtd = Qtd_vertices;
         for (int i = 0; i < qtd; i++)
         {
             perimetro += (i == qtd - 1) ? 
@@ -46,9 +46,9 @@ public class Poligono
         return (float)perimetro;
     }
 
-    public int Qtd_vertices()
+    public int Qtd_vertices
     {
-        return (int)vertices_poligono.Count;
+        get => (int)vertices_poligono.Count;
     }
 }
 

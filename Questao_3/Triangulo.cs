@@ -8,11 +8,11 @@ public class Triangulo
 
     public Triangulo(Vertice[] triangulo)
     {
-        if (triangulo.Length != 3 || Area(triangulo) == (double) 0.0)
+        if (triangulo.Length != 3 || Verifica_Area(triangulo) == (double)0.0)
         {
             throw new ArgumentException("Um triângulo deve ter exatamente 3 vértices que não podem ser colineares!");
         }
-        
+
         this.triangulo = triangulo;
     }
 
@@ -20,19 +20,23 @@ public class Triangulo
     {
         get => triangulo[index];
     }
-    
-    public float Area()
-    {    
-        double a = triangulo[0].Distancia(triangulo[1]);
-        double b = triangulo[1].Distancia(triangulo[2]);
-        double c = triangulo[2].Distancia(triangulo[0]);
 
-        double S = (a + b + c) / 2.0;
+    // Propriedade para Area
+    public float Area
+    {
+        get
+        {
+            double a = triangulo[0].Distancia(triangulo[1]);
+            double b = triangulo[1].Distancia(triangulo[2]);
+            double c = triangulo[2].Distancia(triangulo[0]);
 
-        return (float) Math.Sqrt( S * ( S - a ) * (S - b) * (S - c) );
+            double S = (a + b + c) / 2.0;
+
+            return (float)Math.Sqrt(S * (S - a) * (S - b) * (S - c));
+        }
     }
 
-    private float Area(Vertice[] triangulo)
+    private float Verifica_Area(Vertice[] triangulo)
     {
         double a = triangulo[0].Distancia(triangulo[1]);
         double b = triangulo[1].Distancia(triangulo[2]);
@@ -43,13 +47,32 @@ public class Triangulo
         return (float)Math.Sqrt(S * (S - a) * (S - b) * (S - c));
     }
 
-    public float Perimetro()
+    // Propriedade para Perimetro
+    public float Perimetro
     {
-        double a = triangulo[0].Distancia(triangulo[1]);
-        double b = triangulo[1].Distancia(triangulo[2]);
-        double c = triangulo[2].Distancia(triangulo[0]);
+        get
+        {
+            double a = triangulo[0].Distancia(triangulo[1]);
+            double b = triangulo[1].Distancia(triangulo[2]);
+            double c = triangulo[2].Distancia(triangulo[0]);
 
-        return (float)(a + b + c);
+            return (float)(a + b + c);
+        }
+    }
+
+    // Propriedade para Tipo
+    public string Tipo
+    {
+        get
+        {
+            double a = triangulo[0].Distancia(triangulo[1]);
+            double b = triangulo[1].Distancia(triangulo[2]);
+            double c = triangulo[2].Distancia(triangulo[0]);
+
+            if (a == b && b == c) return "Equilátero";
+            else if (a == c || b == c || a == b) return "Isósceles";
+            else return "Escaleno";
+        }
     }
 
     public bool Triangulos_iguais(Triangulo triangulo)
@@ -62,25 +85,12 @@ public class Triangulo
         double b = triangulo[1].Distancia(triangulo[2]);
         double c = triangulo[2].Distancia(triangulo[0]);
 
-        double[] triangulo_1 = [a1, b1, c1];
-        double[] triangulo_2 = [a, b, c];
+        double[] triangulo_1 = { a1, b1, c1 };
+        double[] triangulo_2 = { a, b, c };
 
         Array.Sort(triangulo_1);
         Array.Sort(triangulo_2);
 
         return triangulo_1.SequenceEqual(triangulo_2);
     }
-    public string Tipo()
-    {
-        double a = triangulo[0].Distancia(triangulo[1]);
-        double b = triangulo[1].Distancia(triangulo[2]);
-        double c = triangulo[2].Distancia(triangulo[0]);
-
-        if (a == b && b == c) return "Equilátero";
-
-        else if (a == c || b == c || a == b) return "Isósceles";
-
-        else return "Escaleno";
-    }
 }
-

@@ -15,13 +15,13 @@ Vertice[] vertices_2 = [
 Triangulo triangulo_1 = new Triangulo(vertices_1);
 Triangulo triangulo_2 = new Triangulo(vertices_2);
 
-Console.WriteLine($"Area triangulo 1 : { triangulo_1.Area()}");
-Console.WriteLine($"Perimetro triangulo 1: {triangulo_1.Perimetro()}");
-Console.WriteLine($"Tipo triangulo 1 : {triangulo_1.Tipo()} \n");
+Console.WriteLine($"Area triangulo 1 : { triangulo_1.Area}");
+Console.WriteLine($"Perimetro triangulo 1: {triangulo_1.Perimetro}");
+Console.WriteLine($"Tipo triangulo 1 : {triangulo_1.Tipo} \n");
 
-Console.WriteLine($"Area triangulo 2 : {triangulo_2.Area()}");
-Console.WriteLine($"Perimetro triangulo 2: {triangulo_2.Perimetro()}");
-Console.WriteLine($"Tipo triangulo 2 : {triangulo_2.Tipo()} \n");
+Console.WriteLine($"Area triangulo 2 : {triangulo_2.Area}");
+Console.WriteLine($"Perimetro triangulo 2: {triangulo_2.Perimetro}");
+Console.WriteLine($"Tipo triangulo 2 : {triangulo_2.Tipo} \n");
 
 Console.WriteLine($"Os triangulos 1 e 2 são iguais : {triangulo_1.Triangulos_iguais(triangulo_2)}");
 

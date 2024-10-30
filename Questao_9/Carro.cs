@@ -27,12 +27,15 @@ public class Carro
         Console.WriteLine($"\nTroca do motor do carro {Modelo} por {novoMotor.Cilindrada}\n");
     }
 
-    public string VelocidadeMaxima()
+    public string VelocidadeMaxima
     {
-        if (motor == null) return "O carro não possui Motor";
-        else if (motor.Cilindrada <= 1.0) return "140 Km/h";
-        else if (motor.Cilindrada <= 1.6) return "160 Km/h";
-        else if (motor.Cilindrada <= 2.0) return "180 Km/h";
-        else return "220 Km/h";
+        get
+        {
+            if (motor == null) return "O carro não possui Motor";
+            else if (motor.Cilindrada <= 1.0) return "140 Km/h";
+            else if (motor.Cilindrada <= 1.6) return "160 Km/h";
+            else if (motor.Cilindrada <= 2.0) return "180 Km/h";
+            else return "220 Km/h";
+        }
     }
 }

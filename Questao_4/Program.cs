@@ -11,15 +11,15 @@ List<Vertice> vertices = new List<Vertice>
 
 Poligono poligono = new Poligono(vertices);
 
-Console.WriteLine($"Quantidade de Vertices : {poligono.Qtd_vertices()}");
+Console.WriteLine($"Quantidade de Vertices : {poligono.Qtd_vertices}");
 Console.WriteLine($"Perimetro : {poligono.Perimetro()}");
 
 Console.WriteLine($"Addvertice : {poligono.AddVertice(new Vertice(3, 3))}");
 
-Console.WriteLine($"Quantidade de Vertices : {poligono.Qtd_vertices()}");
+Console.WriteLine($"Quantidade de Vertices : {poligono.Qtd_vertices}");
 Console.WriteLine($"Perimetro : {poligono.Perimetro()}");
 
 poligono.RemoveVertice(3,3);
 
-Console.WriteLine($"Quantidade de Vertices : {poligono.Qtd_vertices()}");
+Console.WriteLine($"Quantidade de Vertices : {poligono.Qtd_vertices}");
 Console.WriteLine($"Perimetro : {poligono.Perimetro()}");

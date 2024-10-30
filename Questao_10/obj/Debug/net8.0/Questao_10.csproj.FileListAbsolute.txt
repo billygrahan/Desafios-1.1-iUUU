@@ -1,0 +1,15 @@
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\bin\Debug\net8.0\Questao_10.exe
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\bin\Debug\net8.0\Questao_10.deps.json
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\bin\Debug\net8.0\Questao_10.runtimeconfig.json
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\bin\Debug\net8.0\Questao_10.dll
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\bin\Debug\net8.0\Questao_10.pdb
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\obj\Debug\net8.0\Questao_10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\obj\Debug\net8.0\Questao_10.AssemblyInfoInputs.cache
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\obj\Debug\net8.0\Questao_10.AssemblyInfo.cs
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\obj\Debug\net8.0\Questao_10.csproj.CoreCompileInputs.cache
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\obj\Debug\net8.0\Questao_10.sourcelink.json
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\obj\Debug\net8.0\Questao_10.dll
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\obj\Debug\net8.0\refint\Questao_10.dll
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\obj\Debug\net8.0\Questao_10.pdb
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\obj\Debug\net8.0\Questao_10.genruntimeconfig.cache
+C:\Users\Billy Grahan\Desktop\iUUU\desafio 1.1\Questao_10\obj\Debug\net8.0\ref\Questao_10.dll

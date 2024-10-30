@@ -4,13 +4,8 @@ public class Pessoa
 {
     public string nome { get; set; }
 
-    public CertidaoNascimento? Certidao { get; private set; }
-
-    public Pessoa(string nome)
-    {
-        this.nome = nome;
-    }
-
+    private CertidaoNascimento? certidao;
+    
     /*
     public Pessoa(string nome, CertidaoNascimento Certidao)
     {
@@ -18,11 +13,26 @@ public class Pessoa
         this.Certidao = Certidao;
     }
     */
-
-    public void SetCertidao(CertidaoNascimento Certidao)
+    
+    public Pessoa(string nome)
     {
-        this.Certidao = (this.Certidao == null) ? Certidao 
-            : throw new InvalidOperationException("A pessoa já possui uma certidão de nascimento.");
+        this.nome = nome;
+    }
 
+    public CertidaoNascimento? Certidao
+    {
+        get => certidao;
+        set
+        {
+            if (certidao == null)
+            {
+                certidao = value;
+            }
+            else
+            {
+                throw new InvalidOperationException("A pessoa já possui uma certidão de nascimento.");
+            }
+        }
     }
 }
+

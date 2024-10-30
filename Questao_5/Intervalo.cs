@@ -1,7 +1,4 @@
-﻿
-using System.Runtime.CompilerServices;
-
-namespace Questao_5;
+﻿namespace Questao_5;
 
 public class Intervalo
 {
@@ -24,9 +21,9 @@ public class Intervalo
             (intervalo2.DataInicial <= DataInicial && DataInicial <= intervalo2.DataFinal);
     }
 
-    public TimeSpan Tempo()
+    public TimeSpan Duracao
     {
-        return DataFinal - DataInicial;
+        get => DataFinal - DataInicial;
     }
 
     public bool Intervalos_iguais(Intervalo intervalo2)
